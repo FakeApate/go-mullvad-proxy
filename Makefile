@@ -1,7 +1,7 @@
 AMI_SCHEMA := mullvad_ami_schema.json
 RELAY_SCHEMA := mullvad_relay_schema.json
-OUT_RELAY := mullvad/relay.go
-OUT_AMI := mullvad/ami.go
+OUT_RELAY := relay.go
+OUT_AMI := ami.go
 
 .PHONY: generate-jsonschema build
 
@@ -11,4 +11,4 @@ generate-jsonschema:
 	go-jsonschema -p mullvad -o ${OUT_AMI} ${AMI_SCHEMA}
 
 build:
-	go build ./mullvad
+	go build .
