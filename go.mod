@@ -1,4 +1,4 @@
-module github.com/fakeapate/go-mullvad-proxy
+module github.com/FakeApate/go-mullvad-proxy
 
 go 1.25.8
 
