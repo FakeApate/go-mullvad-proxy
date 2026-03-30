@@ -1,4 +1,4 @@
-module github.com/fakeApate/mullvad
+module github.com/fakeapate/mullvad
 
 go 1.25.8
 
